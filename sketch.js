@@ -72,7 +72,7 @@ function mouseDragged() {
     by = mouseY - yOffset;
   }
 }
-
+//마우스를 드래그할때
 function mouseReleased() {
   locked = false;
 }
@@ -108,4 +108,3 @@ class Bubble {
     ellipse(this.x, this.y, this.r * 2);
   }
 }
-
